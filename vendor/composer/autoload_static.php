@@ -84,6 +84,7 @@ class ComposerStaticInitd6c437ac75316342a46d1019635ad5c8
             'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Container\\' => 14,
+            'PipeDream\\Laravel\\' => 18,
             'PhpParser\\' => 10,
         ),
         'O' => 
@@ -271,6 +272,10 @@ class ComposerStaticInitd6c437ac75316342a46d1019635ad5c8
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'PipeDream\\Laravel\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/pipe-dream/laravel/src',
         ),
         'PhpParser\\' => 
         array (
@@ -3036,6 +3041,11 @@ class ComposerStaticInitd6c437ac75316342a46d1019635ad5c8
         'PhpParser\\Parser\\Tokens' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Parser/Tokens.php',
         'PhpParser\\PrettyPrinterAbstract' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/PrettyPrinterAbstract.php',
         'PhpParser\\PrettyPrinter\\Standard' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/PrettyPrinter/Standard.php',
+        'PipeDream\\Laravel\\Commands\\DumpAutoload' => __DIR__ . '/..' . '/pipe-dream/laravel/src/Commands/DumpAutoload.php',
+        'PipeDream\\Laravel\\Controllers\\PipeDreamAPIController' => __DIR__ . '/..' . '/pipe-dream/laravel/src/Controllers/PipeDreamAPIController.php',
+        'PipeDream\\Laravel\\Controllers\\PipeDreamWebController' => __DIR__ . '/..' . '/pipe-dream/laravel/src/Controllers/PipeDreamWebController.php',
+        'PipeDream\\Laravel\\PipeDreamServiceProvider' => __DIR__ . '/..' . '/pipe-dream/laravel/src/PipeDreamServiceProvider.php',
+        'PipeDream\\Laravel\\ProjectFileManager' => __DIR__ . '/..' . '/pipe-dream/laravel/src/ProjectFileManager.php',
         'Prophecy\\Argument' => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy/Argument.php',
         'Prophecy\\Argument\\ArgumentsWildcard' => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy/Argument/ArgumentsWildcard.php',
         'Prophecy\\Argument\\Token\\AnyValueToken' => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy/Argument/Token/AnyValueToken.php',
