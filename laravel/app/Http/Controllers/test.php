@@ -23,6 +23,8 @@ class test extends Controller{
           'garantie' => ''
         );
 
+        $client['prix'] = number_format($client['prix']);
+
 
         $today = date("m-Y");
         $date = date("d-m-Y");
