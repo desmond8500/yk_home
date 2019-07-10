@@ -5,6 +5,8 @@ fieldset{
     padding: 10px;
     height: 280px;
     font-size: 20px;
+    display: block;
+    height: 370px;
   }
 
   .titre{
@@ -24,7 +26,7 @@ fieldset{
     position: relative;
     font-weight: bold;
     text-align: right;
-    top: -65px;
+    top: -125px;
   }
 
   .g{
@@ -37,11 +39,13 @@ fieldset{
 
   .bod{
     position: relative;
-    font-size: 15px;
-    top: -20px;
+    top: -50px;
   }
 
   .ligne{
+    display: block;
+    position: relative;
+    top: 100px;
     border-top: 1px solid black;
   }
 

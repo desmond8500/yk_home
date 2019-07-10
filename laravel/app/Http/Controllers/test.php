@@ -13,8 +13,8 @@ class test extends Controller{
           'ci' => '1618197300442 ',
           'delivre' => '19 Juin 2006 à Bargny',
           'telephone' => '',
-          'prix' => '100000',
-          'local1' => 'A11',
+          'prix' => '110000',
+          'local1' => 'A14',
           'arrivee' => '',
           'depart' => '',
           'contrat' => '24000',
@@ -25,10 +25,10 @@ class test extends Controller{
 
         $client['prix'] = number_format($client['prix']);
 
-
         $today = date("m-Y");
         $date = date("d-m-Y");
-        $mois = 'Juin';
+        $mois = array('juin');
+
         return view('loc.recu',compact('client','today','date','mois'));
     }
 
